@@ -68,7 +68,7 @@ public void naoDeveSalvarTarefaComDataPassada() {
 }
 	@Test
 
-public void deveSalvarTarefaComSucesso() throws ValidationException {
+public void deveSalvarsTarefaComSucesso() throws ValidationException {
 		Task todo = new Task();
 		todo.setTask("Descricao");
 		todo.setDueDate(LocalDate.now());
